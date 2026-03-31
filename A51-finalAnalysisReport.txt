@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------
+RESULTS FOR THE UNIFORMITY OF P-VALUES AND THE PROPORTION OF PASSING SEQUENCES
+------------------------------------------------------------------------------
+   generator is <VA51/A51-nist_data.txt>
+------------------------------------------------------------------------------
+ C1  C2  C3  C4  C5  C6  C7  C8  C9 C10  P-VALUE  PROPORTION  STATISTICAL TEST
+------------------------------------------------------------------------------
+ 24  13  19  16  28  16  17  25  26  16  0.191687    199/200     Frequency
+ 21  20  22  16  17  20  24  20  16  24  0.917870    197/200     BlockFrequency
+ 23  17  13  25  26  25  18  14  17  22  0.326749    198/200     CumulativeSums
+ 25  15  24  14  27  18  10  24  25  18  0.090936    198/200     CumulativeSums
+ 30  20  16  25  15  12  21  17  22  22  0.191687    197/200     Runs
+ 15  21  23  24  20  17  22  20  20  18  0.946308    198/200     LongestRun
+ 54  20  20  21  24  15  16  13  11   6  0.000000 *  192/200  *  ApproximateEntropy
+ 18  14  23  16  22  19  24  19  22  23  0.834308    198/200     Serial
+ 20  22  16  18  20  30  16  15  24  19  0.428095    199/200     Serial
+ 15  17  15  18  13  25  29  27  20  21  0.145326    197/200     LinearComplexity
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The minimum pass rate for each statistical test with the exception of the
+random excursion (variant) test is approximately = 193 for a
+sample size = 200 binary sequences.
+
+For further guidelines construct a probability table using the MAPLE program
+provided in the addendum section of the documentation.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
