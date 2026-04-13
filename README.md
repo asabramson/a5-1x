@@ -1,9 +1,8 @@
 # Verilog Implementation of A5/1 and modified A5/1 stream ciphers.
 
-We implement both A5/1 verbatim and a modified version of A5/1 with the intention
-to mitigate known weaknesses against A5/1 as well as other percieved weaknesses.
+We implement the original A5/1, our original modified version of A5/1, and a revised version with updates after receiving feedback from the attacker teams (see `A51_STREAM.V`, `A51_EXT_STREAM.V`, and `A51_EXT_V2_STREAM.v` respectively)
 
-The generated keystream a 98.65% average with select NIST sts suite tests.
+The generated keystream had an average of 98.65% with select NIST randomness tests, which is a small improvement over the original A5/1 cipher.
 See A51-finalAnalysisReport.txt for more details.
 
 https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software
