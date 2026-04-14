@@ -1,4 +1,4 @@
-module A51_EXT_STREAM (
+module A51_EXT_V2_STREAM (
     input wire clk,
     input wire enable_setkey,
     input wire data_in,
@@ -75,7 +75,7 @@ module A51_EXT_STREAM (
     // -----------------------------------------------------------------
 
     parameter SR4_WIDTH = 27;
-    reg [SR4_WIDTH-1:0] sr3 = 0;
+    reg [SR4_WIDTH-1:0] sr4 = 0;
 
     wire sr4_tap26;
     wire sr4_tap4; wire sr4_4_to_1;
